@@ -30,7 +30,6 @@ class Game
     void initializeVariables();
     void initWindow();
     
-
 public:
 
     /// CONSTRUCTOR / DESTRUCTOR
@@ -38,8 +37,6 @@ public:
     virtual ~Game();
 
     /// FUNCTIONS
-    
-
     void pollEvents();
     void updateShapes();
     void update();
